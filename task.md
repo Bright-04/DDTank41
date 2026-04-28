@@ -1,0 +1,9 @@
+- [x] Create `TestHost` WinForms project directory structure.
+- [ ] Write `TestHost.csproj` (Targeting .NET Framework 4.7.2 with CefSharp.WinForms Version 84.4.10).
+- [ ] Write `Program.cs` incorporating refined Chromium flags (`ppapi-flash-path`, `plugin-policy=allow`, `disable-gpu-sandbox`, `remote-debugging-port=9222`, etc).
+- [ ] Write `SimpleHttpServer.cs` to host `127.0.0.1:19999` with correct MIME types and cache headers.
+- [ ] Write `MainForm.cs` to load `http://127.0.0.1:19999/wrapper.html` and launch DevTools.
+- [ ] Create `wrapper.html` inside `Tank.Flash` with a proper `<object id="Main">` embed and JS stubs.
+- [ ] Create `config_local.xml` inside `Tank.Flash` with `http://127.0.0.1:19999/` URLs.
+- [ ] Ensure `crossdomain.xml` is permissive at the HTTP root.
+- [ ] Update `walkthrough.md` with instructions.

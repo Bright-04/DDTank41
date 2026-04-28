@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Web;
 using System.Web.Services;
@@ -30,6 +30,9 @@ namespace Tank.Request
 				using (PlayerBussiness playerBussiness = new PlayerBussiness())
 				{
 					PlayerInfo[] userLoginList = playerBussiness.GetUserLoginList(str2);
+					context.Response.ContentType = "text/plain";
+					context.Response.Write($"DEBUG: username='{str2}', length={userLoginList.Length}");
+					return;
 					if (userLoginList.Length == 0)
 					{
 						return;

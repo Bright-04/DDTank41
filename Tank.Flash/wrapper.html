@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DDTank Safe Mode Boot</title>
+    <style>
+        html, body { height: 100%; margin: 0; padding: 0; background-color: #000; overflow: hidden; }
+        #flashContainer { width: 1000px; height: 600px; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+    </style>
+    <script>
+        function IsDesktop() {
+            console.log("[JS Stub] IsDesktop()");
+            var flashObj = document.getElementById("Main") || document.getElementById("Main_IE");
+            if (flashObj && flashObj.SetIsDesktop) {
+                flashObj.SetIsDesktop();
+            }
+        }
+        
+        function setFavorite() { console.log("[JS Stub] setFavorite()"); }
+        function AddFavorite() { console.log("[JS Stub] AddFavorite()"); }
+        function WindowReturn() { console.log("[JS Stub] WindowReturn()"); }
+        function game_pay() { console.log("[JS Stub] game_pay()"); }
+        function game_interruption() { console.log("[JS Stub] game_interruption()"); }
+        function setFlashCall() { console.log("[JS Stub] setFlashCall()"); }
+        
+        function swfExitPrompt() { console.log("[JS Stub] swfExitPrompt()"); }
+        function sendSwfNowUrl(url) { console.log("[JS Stub] sendSwfNowUrl(" + url + ")"); }
+        function SetFlashLoadExternal() { console.log("[JS Stub] SetFlashLoadExternal()"); }
+        function ExternalLoadStop() { console.log("[JS Stub] ExternalLoadStop()"); }
+        function sinaCallBack() { console.log("[JS Stub] sinaCallBack()"); }
+        
+        window.title_effect = {
+            tickerBegin: function(t) { console.log("[JS Stub] tickerBegin: " + t); },
+            tickerStop: function() { console.log("[JS Stub] tickerStop"); }
+        };
+    </script>
+</head>
+<body>
+    <div id="flashContainer">
+        <object id="Main_IE" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1000" height="600" align="middle">
+            <param name="allowScriptAccess" value="always" />
+            <param name="movie" value="http://127.0.0.1:19999/Loading.swf?user=test&amp;key=test&amp;config=http://127.0.0.1:19999/config_local.xml" />
+            <param name="quality" value="high" />
+            <param name="menu" value="false" />
+            <param name="bgcolor" value="#000000" />
+            <param name="wmode" value="direct" />
+            
+            <embed id="Main" name="Main" 
+                   src="http://127.0.0.1:19999/Loading.swf?user=test&amp;key=test&amp;config=http://127.0.0.1:19999/config_local.xml" 
+                   width="1000" height="600" 
+                   align="middle" quality="high" 
+                   allowScriptAccess="always" 
+                   type="application/x-shockwave-flash" 
+                   wmode="direct">
+            </embed>
+        </object>
+    </div>
+</body>
+</html>

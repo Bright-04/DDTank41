@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <config>
+    <FLASHSITE value="http://127.0.0.1:19999/" />
+    <BACKUP_FLASHSITE value="http://127.0.0.1:19999/" />
+    <USE_MD5 value="false" />
+    <SITE value="http://127.0.0.1:19999/" />
+    <FIRSTPAGE value="http://127.0.0.1:19999/" />
+    <REGISTER value="http://127.0.0.1:19999/" />
+    <REQUEST_PATH value="http://127.0.0.1:19999/Request/" />
+    <LOGIN_PATH value="http://127.0.0.1:19999/" siteName="Gunny" />
+    <FILL_PATH value="http://127.0.0.1:19999/launcher/topup.htm?pid=49&amp;acc={user}&amp;serid=1" />
+    <POLICY_FILES>
+      <file value="http://127.0.0.1:19999/crossdomain.xml" />
+    </POLICY_FILES>
+    <GAME_BOXPIC value="7" />
+    <FIGHTLIB value="true" />
+    <ALLOW_MULTI value="true" />
+    <TRAINER_PATH value="tutorial.swf" />
+    <MUSIC_LIST value="1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1034,1035,1036,1037,1038,1039,1040,1059,1060,1061,1062,1063,1065,1067,1068,1069,1077" />
+    <LANGUAGE value="vietnam" />
+    <PARTER_ID value="303" />
+    <STATISTIC value="true" />
+    <SUCIDE_TIME value="120" />
+    <ISTOPDERIICT value="true" />
+    <COUNT_PATH value="http://127.0.0.1:19999/List_BI_Click.ashx" />
+    <PHP isShow="false" link="false" site="http://127.0.0.1:19999/{id}/home" infoPath="http://127.0.0.1:19999/GetUserImg.aspx?uid={uid}" />
+    <OFFICIAL_SITE value="http://127.0.0.1:19999/" />
+    <GAME_FORUM value="http://127.0.0.1:19999/" />
+    <COMMUNITY_FRIEND_PATH isUser="false" value="http://127.0.0.1:19999/addfriend.php" />
+    <COMMUNITY_INVITE_PATH value="http://127.0.0.1:19999/invite.php" />
+    <COMMUNITY_FRIEND_LIST_PATH value="http://127.0.0.1:19999/GetSnsFriendList" snsPath="http://127.0.0.1:19999/NotifySnsUserUpgrade" isexist="true" isexistBtnVisble="true" cmBtnVisble="false" />
+    <COMMUNITY_INTERFACE enable="true" path="http://127.0.0.1:19999/Other/" shareBtnVisble="false" />
+    <COMMUNITY_FRIEND_INVITED_SWITCH value="true" invitedOnline="true" />
+    <EXTERNAL_INTERFACE path="http://127.0.0.1:19999/postAction.jsp" enable="false" />
+    <COMMUNITY_MICROBLOG value="true" />
+    <COMMUNITY_SINA_SECOND_MICROBLOG value="true" />
+    <ALLOW_POPUP_FAVORITE value="false" />
+    <FILL_JS_COMMAND value="user_ZingPay" enable="true" />
+    <SHIELD_NOTICE value="false" />
+    <TRAINER_STANDALONE value="true" />
+    <USER_GUILD_ENABLE value="true" />
+    <MINLEVELDUPLICATE value="8" />
+    <DISABLE_TASK_ID value="545,382,383,384,385" />
+    <STATISTICS enable="false" />
+    <LITTLEGAMEMINLV value="20" />
+    <SHOW_BACKGROUND value="true" />
+    <DOWNLOAD value="false" />
+    <HOTSPRING value="true" />
+    <LUCKY_NUMBER enable="false" />
+    <LOTTERY enable="false" />
+    <RANDOM_CHANNEL value="true" />
+    <LIKEPERSON_SELECTED value="false" />
+    <MODULE>
+      <CIVIL enable="true" />
+      <CHURCH enable="true" />
+    </MODULE>
+    <CHAT_FACE>
+      <DISABLED_LIST list="38" />
+    </CHAT_FACE>
+    <GAME_FRAME_CONFIG>
+      <FRAME_TIME_OVER_TAG value="67" />
+      <FRAME_OVER_COUNT_TAG value="25" />
+    </GAME_FRAME_CONFIG>
+    <OVERSEAS>
+      <OVERSEAS_COMMUNITY_TYPE value="0" callPath="" callJS="" shareBtnVisble="true" />
+    </OVERSEAS>    
+    <Gunny_DOWNLOAD value="./" />
+    <FEEDBACK enable="false" telNumber="" />
+    <SUIT enable="true" />
+    <DUNGEON_OPENLIST value="1,2,3,4,5,6,7,8,9,10,11,12,70001,71000,12016" advancedEnable="true" epicLevelEnable="true" />
+    <KINGBLESS enable="true" />
+    <QUEST_TRUSTEESHIP enable="false" />
+    <WARRIORS_FAM enable="true" />
+    <GEMSTONE enable="true" />
+    <CROSS_CHAT_SERVER enable="true" />
+    <EXALTBTN enable="true" />
+    <CROSSBUGGLE enable="true" />
+    <CHECKDESK_KILL enable="false" />
+  </config>
+</root>

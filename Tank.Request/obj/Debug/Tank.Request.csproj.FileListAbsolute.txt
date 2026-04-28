@@ -338,3 +338,5 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Tank.Request\obj\Debug\Tank.Request.csproj.
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Tank.Request\obj\Debug\Tank.Request.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Tank.Request\obj\Debug\Tank.Request.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Tank.Request\obj\Debug\Tank.Request.pdb
+D:\Repositories\DDTank41\Tank.Request\obj\Debug\Tank.Request.dll
+D:\Repositories\DDTank41\Tank.Request\obj\Debug\Tank.Request.pdb

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj": {}
+    "D:\\Repositories\\DDTank41\\Bussiness\\Bussiness.csproj": {}
   },
   "projects": {
-    "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj": {
+    "D:\\Repositories\\DDTank41\\Bussiness\\Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj",
+        "projectUniqueName": "D:\\Repositories\\DDTank41\\Bussiness\\Bussiness.csproj",
         "projectName": "Bussiness",
-        "projectPath": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj",
-        "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "W:\\ShareSource\\DDTank41\\Bussiness\\obj\\",
+        "projectPath": "D:\\Repositories\\DDTank41\\Bussiness\\Bussiness.csproj",
+        "packagesPath": "C:\\Users\\Bright-Neo\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\DDTank41\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bright-Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
-                "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj"
+              "D:\\Repositories\\DDTank41\\Game.Base\\Game.Base.csproj": {
+                "projectPath": "D:\\Repositories\\DDTank41\\Game.Base\\Game.Base.csproj"
               },
-              "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
-                "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj"
+              "D:\\Repositories\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
+                "projectPath": "D:\\Repositories\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj"
               }
             }
           }
@@ -46,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net472": {
@@ -61,21 +66,25 @@
               "version": "[2.0.14, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
+    "D:\\Repositories\\DDTank41\\Game.Base\\Game.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
+        "projectUniqueName": "D:\\Repositories\\DDTank41\\Game.Base\\Game.Base.csproj",
         "projectName": "Game.Base",
-        "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
-        "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "W:\\ShareSource\\DDTank41\\Game.Base\\obj\\",
+        "projectPath": "D:\\Repositories\\DDTank41\\Game.Base\\Game.Base.csproj",
+        "packagesPath": "C:\\Users\\Bright-Neo\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\DDTank41\\Game.Base\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bright-Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,7 +109,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net472": {
@@ -115,21 +125,25 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
+    "D:\\Repositories\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectUniqueName": "D:\\Repositories\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
         "projectName": "SqlDataProvider",
-        "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
-        "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\obj\\",
+        "projectPath": "D:\\Repositories\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
+        "packagesPath": "C:\\Users\\Bright-Neo\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\DDTank41\\SqlDataProvider\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bright-Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,7 +168,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net472": {
@@ -173,7 +188,7 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
