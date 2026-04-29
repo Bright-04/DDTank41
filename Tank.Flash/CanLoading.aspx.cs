@@ -17,12 +17,14 @@ namespace Tank.Flash
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            bool canLoading = false;
-            WaitingUser user = Session["user"];
-            if (user != null)
-            {
- 
-            }
+            string username = Session["username"] as string;
+            string password = Session["password"] as string;
+            bool canLoading = !string.IsNullOrEmpty(username)
+                && !string.IsNullOrEmpty(password)
+                && LoadingManager.Login(username, password);
+
+            Response.ContentType = "text/plain";
+            Response.Write(canLoading ? "true" : "false");
 
         }
     }

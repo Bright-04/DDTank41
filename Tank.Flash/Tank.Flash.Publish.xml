@@ -68,6 +68,7 @@
     <file relUrl="auth/register.aspx" publishTime="06/03/2013 01:56:39" />
     <file relUrl="script/ga-idlogin-gn.js" publishTime="12/25/2012 11:36:19" />
     <file relUrl="BeginLoad.aspx" publishTime="08/07/2010 16:07:34" />
+    <file relUrl="CanLoading.aspx" publishTime="08/07/2010 16:07:34" />
     <file relUrl="bin/Tank.Flash.pdb" publishTime="06/03/2013 02:39:43" />
     <file relUrl="images/close.gif" publishTime="12/25/2012 11:44:20" />
     <file relUrl="images/bg-vukhi.jpg" publishTime="12/25/2012 11:36:22" />
@@ -88,6 +89,7 @@
     <file relUrl="bin/log4net.xml" publishTime="08/07/2010 16:03:04" />
     <file relUrl="images/bg-toploop.gif" publishTime="12/25/2012 11:36:22" />
     <file relUrl="auth/register.ashx" publishTime="07/20/2012 17:24:58" />
+    <file relUrl="sectionlive.ashx" publishTime="06/03/2013 02:39:43" />
     <file relUrl="images/gn_bn_ManIp5_210x200.jpg" publishTime="02/09/2013 21:07:58" />
     <file relUrl="bin/Bussiness.pdb" publishTime="06/03/2013 02:01:26" />
     <file relUrl="images/block-tintuc.png" publishTime="12/25/2012 20:11:19" />

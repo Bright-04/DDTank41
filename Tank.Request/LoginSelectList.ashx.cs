@@ -22,6 +22,7 @@ namespace Tank.Request
 		{
 			bool flag = false;
 			string str1 = "Fail!";
+			int total = 0;
 			XElement xelement = new XElement("Result");
 			try
 			{
@@ -30,13 +31,14 @@ namespace Tank.Request
 				using (PlayerBussiness playerBussiness = new PlayerBussiness())
 				{
 					PlayerInfo[] userLoginList = playerBussiness.GetUserLoginList(str2);
-					context.Response.ContentType = "text/plain";
-					context.Response.Write($"DEBUG: username='{str2}', length={userLoginList.Length}");
-					return;
 					if (userLoginList.Length == 0)
 					{
-						return;
+						string msg = "";
+						string style = "7008,3158,6103,5160,1142";
+						playerBussiness.RegisterPlayer(str2, "123456", str2, style, style, "", "", "", "", "", 1, ref msg, 0);
+						userLoginList = playerBussiness.GetUserLoginList(str2);
 					}
+					total = userLoginList.Length;
 					PlayerInfo[] array = userLoginList;
 					foreach (PlayerInfo playerInfo in array)
 					{
@@ -57,6 +59,7 @@ namespace Tank.Request
 			{
 				xelement.Add(new XAttribute("value", flag));
 				xelement.Add(new XAttribute("message", str1));
+				xelement.Add(new XAttribute("total", total));
 				context.Response.ContentType = "text/plain";
 				context.Response.Write(xelement.ToString(check: false));
 			}
